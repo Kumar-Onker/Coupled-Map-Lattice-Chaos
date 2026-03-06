@@ -26,7 +26,7 @@ Coupled map lattices extend the logistic map to spatially distributed systems. E
 
 The general update rule is:
 
-x_i(t+1) = (1 − ε) f(x_i(t)) + (ε / 2) [ f(x_{i−1}(t)) + f(x_{i+1}(t)) ]
+$$x_i(t+1) = (1 − ε) f(x_i(t)) + (ε / 2) [ f(x_{i−1}(t)) + f(x_{i+1}(t)) ]$$
 
 where
 
@@ -41,9 +41,9 @@ These systems are widely used to study spatiotemporal chaos and pattern formatio
 
 Each lattice site contains a chaotic oscillator governed by the Rössler system:
 
-dx/dt = −y − z
-dy/dt = x + a y
-dz/dt = b + z(x − c)
+$$dx/dt = −y − z$$
+$$dy/dt = x + a y$$
+$$dz/dt = b + z(x − c)$$
 
 These oscillators are coupled through nearest-neighbor interactions in a three-dimensional lattice. The system demonstrates how chaotic dynamics propagate through spatially extended systems.
 
@@ -63,26 +63,15 @@ The simulations include several visualization techniques to analyze the system d
 
 These visualizations help illustrate transitions to chaos and collective behavior in coupled systems.
 
-![Chimera States](figures/chimera_states.png)
-
-## Repository Structure
-
-Coupled-Map-Lattice-Chaos
-│
-├── Coupled_Map_Lattice_Simulations.ipynb
-├── README.md
-└── figures/
-  ├── bifurcation.png
-  ├── cml_spatiotemporal.png
-  └── chimera_states.png
+![Chimera States](figures/chimera_state.png)
 
 ## Requirements
 
 Python 3
-NumPy
-SciPy
-Matplotlib
 Jupyter Notebook
+Numpy 
+Matplotlib.pyplot
+scipy
 
 Install required packages using:
 
@@ -90,26 +79,16 @@ pip install numpy scipy matplotlib
 
 ## How to Run
 
-1. Clone the repository:
-
-git clone https://github.com/yourusername/Coupled-Map-Lattice-Chaos.git
-
-2. Open the notebook:
-
-jupyter notebook Coupled_Map_Lattice_Simulations.ipynb
-
-3. Run the cells to generate the simulations and visualizations.
+Open the notebook in Jupyter and run the cells to reproduce the simulations.
 
 ## Applications
 
 Coupled nonlinear dynamical systems appear in many scientific fields including:
 
-* nonlinear physics
-* complex systems
-* neural networks
-* biological oscillations
-* chemical reaction systems
-* pattern formation
+• nonlinear physics  
+• complex systems  
+• biological oscillations  
+• pattern formation
 
 ## Author
 
