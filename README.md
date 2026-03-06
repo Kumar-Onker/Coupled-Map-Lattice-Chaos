@@ -14,7 +14,7 @@ The models implemented here are classical systems in nonlinear dynamics and comp
 
 The logistic map is a simple nonlinear discrete-time dynamical system given by:
 
-x_{n+1} = r x_n (1 − x_n)
+$$x_{n+1} = r x_n (1 − x_n)$$
 
 By varying the parameter r, the system exhibits a transition from fixed points to periodic oscillations and eventually chaotic dynamics. A bifurcation diagram is generated to visualize this transition.
 
