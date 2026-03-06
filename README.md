@@ -67,11 +67,11 @@ These visualizations help illustrate transitions to chaos and collective behavio
 
 ## Requirements
 
-Python 3
-Jupyter Notebook
-Numpy 
-Matplotlib.pyplot
-scipy
+Python 3 \n
+Jupyter Notebook \n
+Numpy \n
+Matplotlib.pyplot \n
+scipy \n
 
 Install required packages using:
 
@@ -85,10 +85,10 @@ Open the notebook in Jupyter and run the cells to reproduce the simulations.
 
 Coupled nonlinear dynamical systems appear in many scientific fields including:
 
-• nonlinear physics  
-• complex systems  
-• biological oscillations  
-• pattern formation
+• nonlinear physics  \n
+• complex systems  \n
+• biological oscillations \n  
+• pattern formation \n
 
 ## Author
 
