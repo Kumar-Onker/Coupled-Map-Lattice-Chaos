@@ -100,10 +100,4 @@ Kumar Onker
 
 MSc Physics
 
-Research interests:
-
-Nonlinear Dynamics
-
-Complex Systems
-
-Computational Modeling
+Research interests: Nonlinear Dynamics, Complex Systems, Computational Modeling
