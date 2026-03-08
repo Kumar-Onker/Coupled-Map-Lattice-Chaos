@@ -98,5 +98,3 @@ Coupled nonlinear dynamical systems appear in many scientific fields including:
 
 **Authors:** Kumar Onker  
 *Part of Course: IDC 621 (Modeling Complex Systems)*
-
-*Research interests: Nonlinear Dynamics, Complex Systems, Computational Modeling*
